@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { NavBar, ShowRegister, CreateRegister } from './components';
+import { NavBar, ShowRegister, CreateRegister, Footer } from './components';
 
 export const App = () => {
   return (
@@ -13,6 +13,11 @@ export const App = () => {
           <Route path='/updateRegister/:id' element={<CreateRegister />}/>
         </Routes>
       </div>
+
+      <div className='p-3'> </div>
+
+      <Footer />
+
     </div>
   );
 }
