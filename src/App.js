@@ -17,7 +17,6 @@ export const App = () => {
       <div className='p-3'> </div>
 
       <Footer />
-
     </div>
   );
 }
